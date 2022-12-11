@@ -1,16 +1,9 @@
 if(localStorage["firstRun"] == null)
 {
 	localStorage.setItem('list', JSON.stringify([
-		{id : 0 , text : "Yapılacak-1"},
-		{id : 1 , text : "Yapılacak-2"},
-		{id : 2 , text : "Yapılacak-3"},
-		{id : 3 , text : "Yapılacak-4"},
-		{id : 4 , text : "Yapılacak-5"},
-		{id : 5 , text : "Yapılacak-6"},
-		{id : 6 , text : "Yapılacak-7"},
-		{id : 7 , text : "Yapılacak-8"},
-		{id : 8 , text : "Yapılacak-9"},
-		{id : 9 , text : "Yapılacak-10"}
+		{id : 0 , text : "Gıda Alışverişi"},
+		{id : 1 , text : "Alınacak Kitaplar"},
+		{id : 2 , text : "Yapılacaklar"}
 		]
 	));
 	localStorage["firstRun"] = true;
